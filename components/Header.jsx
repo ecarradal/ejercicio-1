@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <div className={styles.header}>
-      <img width="20px" src="/icons/lines.svg" />
+      <img className={styles.menuIcon} src="/icons/lines.svg" />
       <img width="150px" src="/icons/logo_99minutos.svg" />
       <h3>Header</h3>
       <div className={styles.userInfo}>
