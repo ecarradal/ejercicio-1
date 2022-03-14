@@ -1,14 +1,13 @@
-import '../styles/globals.css'
+import Header from "../components/Header";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  const unaConstante = "Ejercicio #1";
-
   return (
     <>
-      <h1>{unaConstante}</h1>
+      <Header />
       <Component {...pageProps} />
     </>
   );
 }
 
-export default MyApp
+export default MyApp;
