@@ -14,15 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-.header {
-  background-color: antiquewhite;
-  display: flex;
-  align-items: center;
-}
-
-.header {
-  background-color: red;
-  display: flex;
-  align-items: center;
-}
